@@ -161,7 +161,7 @@ $widths = [
 													<div class="resume-company-name ms-auto"><?= $work['company']?></div>
 												</div><!--//row-->
 												
-												<div class="resume-position-time"><?= $work['timeLine']?></div>
+												<div class="resume-position-time"><?= $work['time']?></div>
 											</div><!--//resume-timeline-item-header-->
 											
 											<div class="resume-timeline-item-desc">

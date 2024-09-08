@@ -228,7 +228,7 @@
                         'Windows 10 and 11 OS',
                         'Bios Setup'
                     ]
-                ],
+                ]
             ],
             'skillsTools' => [
                 'Java',
