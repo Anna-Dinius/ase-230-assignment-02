@@ -91,7 +91,7 @@ $widths = [
 							<div class="secondary-info col-auto mt-2">
 								<ul class="resume-social list-unstyled">
 									<li class="mb-3">
-										<a class="text-link" href="#">
+										<a class="text-link" href="<?= $member['linkedin'] ?>">
 											<span class="fa-container text-center me-2">
 												<i class="fab fa-linkedin-in fa-fw"></i>
 											</span>
@@ -100,7 +100,7 @@ $widths = [
 									</li>
 
 									<li class="mb-3">
-										<a class="text-link" href="#">
+										<a class="text-link" href="<?= $member['github'] ?>">
 											<span class="fa-container text-center me-2">
 												<i class="fab fa-github-alt fa-fw"></i>
 											</span>
