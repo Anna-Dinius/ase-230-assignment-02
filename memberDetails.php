@@ -112,7 +112,7 @@
                     'title' => 'Intern',
                     'company' => 'PROceed BPM',
                     'time' => 'June 2024 - Present',
-                    'description' => '', /************/
+                    'description' => 'Organize, consolidate, and reduce the amount of CSS and SCSS code. Replace Angular\'s Flex-Layout with a combination of grid and flexbox CSS. Identify and remove unnecessary and redundant HTML and CSS code. Ensure the application\'s layout is responsive to different screen sizes.',
                     'achievements' => '', /************/
                     'technologies' => [
                         'Angular',
@@ -125,7 +125,7 @@
                     'title' => 'Customer Service Associate (part-time)',
                     'company' => 'Western & Southern Financial Group',
                     'time' => 'July 2023 - August 2024',
-                    'description' => '', /************/
+                    'description' => 'Make outbound calls to insurance applicants to conduct personal history interviews based on underwriters\' requests and document responses in the insurance database. Answer inbound operator calls and transfer the caller to the appropriate department. Process insurance policy loan requests and EFT direct deposit forms. Recruit candidates from across the U.S. for the position of Field Representative.',
                     'achievements' => '', /************/
                     'technologies' => [
                         'Indeed',
@@ -140,7 +140,7 @@
                     'title' => 'Bookseller (seasonal)',
                     'company' => 'NKU Barnes and Noble Book Store',
                     'time' => 'Aug 2022 - Jan 2023',
-                    'description' => '', /************/
+                    'description' => 'Put together and organized student orders. Restocked books. Processed book orders from publishers. Called publishers to place orders. Assisted customers. Trained new employees.',
                     'achievements' => '', /************/
                     'technologies' => [
                         'Windows OS',
