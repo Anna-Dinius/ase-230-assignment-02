@@ -17,36 +17,36 @@
                 [
                     'title' => 'Scholars Intern',
                     'company' => 'Crossroads Church',
-		    'time' => 'January 2024 - August 2024',
+		            'time' => 'January 2024 - August 2024',
                     'description' => 'Data analytics and financial reporting software design.',
                     'achievements' => 'Learned how to do data modeling using Microsoft PowerBI and used SQL to manage a database. Worked with teams and coordinated with others. Stayed ahead of deadlines.',
                     'technologies' => [
                         'PowerBI',
-	    		'SQL'
+	    		        'SQL'
                     ]
                 ],
-	    	[
+                [
                     'title' => 'Front Desk Employee',
                     'company' => 'DNA Sports',
-	 	    'time' => 'January 2023 - Current',
+                    'time' => 'January 2023 - Current',
                     'description' => 'Mange transactions, memberships, and rentals at the front desk.',
                     'achievements' => 'Interacted kindly with guest and managers, resolved guest issues, and handled cash, credit, and debit card transactions.',
                     'technologies' => [
                         'eSoft POS'
                     ]
-	    	]
+                ]
             ],
             'skillsTools' =>[
                 'Java',
-	    	'HTML/CSS',
-	    	'JavaScript',
-	    	'Python',
-	    	'SQL'
+                'HTML/CSS',
+                'JavaScript',
+                'Python',
+                'SQL'
             ],
             'otherSkills' =>[
                 'PowerBI',
-	    	'C, C++, C#',
-	    	'PHP'
+                'C, C++, C#',
+                'PHP'
             ],
             'education' =>[
                 [
@@ -65,7 +65,7 @@
                     'awardName' => 'NKU Presidential Scholarship',
                     'awardDescription' => 'Full-ride scholarship to Northern Kentucky University'
                 ],
-	    	[
+	    	    [
                     'awardName' => 'AP Scholar with Distinction',
                     'awardDescription' => 'Maintained at least a 3.5 average score on every AP Exam they take and scores of 3 or higher on five or more of these exams.'
                 ]
@@ -75,16 +75,16 @@
                     'language' => 'English',
                     'skillLevel' => '(Native)'
                 ],
-	    	[
+	    	    [
                     'language' => 'Spanish',
                     'skillLevel' => '(Intermediate)'
                 ]
             ],
             'interests' =>[
                 'Volleyball',
-	    	'Skiing',
-	    	'Video Games',
-	    	'Saxophone'
+                'Skiing',
+                'Video Games',
+                'Saxophone'
             ],
             'projects' =>[
                 [
@@ -216,10 +216,8 @@
             'linkedin' => 'https://www.linkedin.com/in/dillon-carpenter-120681327/',
             'github' => 'https://github.com/DillonCarpenter',
             'website' => '',
-            'summary' =>'I am a full-time, undergraduate student from North Kentucky University majoring in Applied Software Engineering. I have a year of experience as an IT intern, where I have had plenty of time to develop my communication skills and knowledge on the fundamentals of computer and network infrastructure that is a core part of corporations.
-',
-            'workExperience' =>
-            [
+            'summary' =>'I am a full-time, undergraduate student from North Kentucky University majoring in Applied Software Engineering. I have a year of experience as an IT intern, where I have had plenty of time to develop my communication skills and knowledge on the fundamentals of computer and network infrastructure that is a core part of corporations.',
+            'workExperience' => [
                 [
                     'title' => 'IT Service Intern',
                     'company' => 'St. Elizabeth Healthcare',
@@ -228,18 +226,18 @@
                     'achievements' => '', /************/
                     'technologies' => [
                         'Windows 10 and 11 OS',
-                        'Bios Setup',
+                        'Bios Setup'
                     ]
                 ],
             ],
-            'skillsTools' =>[
+            'skillsTools' => [
                 'Java',
                 'GitHub',
                 'JavaScript',
                 'Python',
                 'HTML/CSS/SCSS'
             ],
-            'otherSkills' =>[
+            'otherSkills' => [
                 'Microsoft Outlook',
                 'Google Drive',
                 'Unity',
@@ -247,30 +245,30 @@
                 'communication',
                 'creativity'
             ],
-            'education' =>[
+            'education' => [
                 [
                     'schoolDegree' => 'BS in Applied Software Engineering',
                     'schoolName' => 'Northern Kentucky University',
                     'time' => '2023 - 2027'
                 ]
             ],
-            'awards' =>[
+            'awards' => [
                 [
                     'awardName' => '', /************/
                     'awardDescription' => '' /************/
                 ]
             ],
-            'languages' =>[
+            'languages' => [
                 [
                     'language' => 'English',
                     'skillLevel' => '(Native)'
                 ]
             ],
-            'interests' =>[
+            'interests' => [
                 'Destroying my Enemies',
                 'Strategy Games'
             ],
-            'projects' =>[
+            'projects' => [
                 [
                     '' /************/
                 ]
