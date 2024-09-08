@@ -182,7 +182,7 @@ $widths = [
 												
 												<ul class="list-inline">
 													<?php foreach($work['technologies'] as $technology){ ?>
-														<?= '<li>' . $technology . '/li>'?>
+														<li><?= $technology ?></li>
 													<?php }?>
 												</ul>
 											</div><!--//resume-timeline-item-desc-->
