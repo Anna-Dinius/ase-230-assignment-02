@@ -102,8 +102,8 @@
             'desiredJobTitle' => 'Software Developer',
             'phone' => '859-638-7832',
             'email' => 'diniusa1@mymail.nku.edu',
-            'linkedin' => 'https://www.linkedin.com/in/anna-dinius-454712302',
-            'github' => 'https://github.com/Anna-Dinius',
+            'linkedin' => 'linkedin.com/in/anna-dinius-454712302',
+            'github' => 'github.com/Anna-Dinius',
             'website' => '',
             'summary' =>'I am a full-time college student working part-time as an intern for an IT company called PROceed BPM.  I have prior experience as a call center representative and bookseller.  I am also in the Venturing Crew, a youth-led organization within the Boy Scouts of America (BSA).  Through the BSA, I have participated in two leadership camps: National Youth Leadership Training (NYLT) and National Advanced Youth Leadership Experience (NAYLE).  After my participant year, I served on staff for NYLT for four years teaching leadership skills to other youth.',
             'workExperience' =>
@@ -213,8 +213,8 @@
             'desiredJobTitle' => 'Software Developer',
             'phone' => '859-638-9293',
             'email' => 'carpenterd5@mymail.nku.edu',
-            'linkedin' => 'https://www.linkedin.com/in/dillon-carpenter-120681327/',
-            'github' => 'https://github.com/DillonCarpenter',
+            'linkedin' => 'linkedin.com/in/dillon-carpenter-120681327/',
+            'github' => 'github.com/DillonCarpenter',
             'website' => '',
             'summary' =>'I am a full-time, undergraduate student from North Kentucky University majoring in Applied Software Engineering. I have a year of experience as an IT intern, where I have had plenty of time to develop my communication skills and knowledge on the fundamentals of computer and network infrastructure that is a core part of corporations.',
             'workExperience' => [
