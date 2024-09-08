@@ -23,7 +23,16 @@
                         'PowerBI',
 	    		'SQL'
                     ]
-                ]
+                ],
+	    	[
+                    'title' => 'Front Desk Employee',
+                    'company' => 'DNA Sports',
+                    'description' => 'Mange transactions, memberships, and rentals at the front desk.',
+                    'achievements' => 'Interacted kindly with guest and managers, resolved guest issues, and handled cash, credit, and debit card transactions.',
+                    'technologies' => [
+                        'eSoft POS'
+                    ]
+	    	]
             ],
             'skillsTools' =>[
                 'Java',
