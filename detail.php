@@ -63,7 +63,9 @@ $widths = [
 					<div class="col">
 						<div class="row p-4 justify-content-center justify-content-md-between">
 							<div class="primary-info col-auto">
-								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Your name</h1>
+								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">
+									<?= $name ?>
+								</h1>
 								
 								<div class="title mb-3">
 									<?= $member['desiredJobTitle'] ?>
