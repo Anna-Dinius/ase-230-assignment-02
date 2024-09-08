@@ -209,7 +209,7 @@
             'firstname' => 'Dillon',
             'lastname' => 'Carpenter',
             'role' => 'Programmer',
-            'image' => '',
+            'image' => 'assets/images/DillonProfile.jpg',
             'desiredJobTitle' => 'Software Developer',
             'phone' => '859-638-9293',
             'email' => 'carpenterd5@mymail.nku.edu',
@@ -222,7 +222,7 @@
                     'title' => 'IT Service Intern',
                     'company' => 'St. Elizabeth Healthcare',
                     'time' => 'August 2022 - May 2023',
-                    'description' => 'Helped maintain the computer infrastructure at the St. Elizabeth Hospital in Edgewood and regularly communicated with both patients and employees in the various departments of the hospital.', /************/
+                    'description' => 'Helped maintain the computer infrastructure at the St. Elizabeth Hospital in Edgewood and regularly communicated with both patients and employees in the various departments of the hospital.',
                     'achievements' => '', /************/
                     'technologies' => [
                         'Windows 10 and 11 OS',
