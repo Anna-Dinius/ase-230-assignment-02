@@ -1,19 +1,35 @@
 <?php
-// INSERT DATA HERE.
+require_once('memberDetails.php');
+require_once('functions.php');
 
+$i = $_GET['index'];
+$member = $members[$i];
+
+$name = $member['firstname'].' '.$member['lastname'];
+
+// Progress bar widths for Skills & Tools section
+$widths = [
+	98,
+	94,
+	96,
+	92,
+	96
+]
 ?>
 
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>Your name's Resume</title>
+	<title>
+		<?= $name ?>'s Resume
+	</title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Your name's resume">
-	<meta name="author" content="Your name">    
+	<meta name="description" content="<?= $name ?> resume">
+	<meta name="author" content="<?= $name ?>">    
 	<link rel="shortcut icon" href="favicon.ico"> 
 	
 	<!-- Google Font -->
@@ -28,7 +44,6 @@
 
 <body>
 	<article class="resume-wrapper text-center position-relative">
-		<?php /* Only the following line changed from the file in the previous assignment */ ?>
 		<div class="mb-4">
 			<a href="index.php" class="btn btn-primary">Back to index</a>
 		</div>
@@ -38,28 +53,70 @@
 				<div class="row">
 					<!-- Image -->	
 					<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-						<img class="picture" src="assets/images/profile.jpg" alt="">
+						<img
+							class="picture"
+							src="<?= $member['image'] ?>"
+							alt="Profile of <?= $name ?>"
+						>
 					</div><!--//col-->
 
 					<div class="col">
 						<div class="row p-4 justify-content-center justify-content-md-between">
 							<div class="primary-info col-auto">
 								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Your name</h1>
-								<div class="title mb-3">Your desired job title</div>
+								
+								<div class="title mb-3">
+									<?= $member['desiredJobTitle'] ?>
+								</div>
+								
 								<ul class="list-unstyled">
-									<li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>your@email.com</a></li>
-									<li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>0123 456 78900</a></li>
+									<li class="mb-2">
+										<a class="text-link" href="#">
+											<i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>
+											<?= $member['email'] ?>
+										</a>
+									</li>
+									
+									<li>
+										<a class="text-link" href="#">
+											<i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>
+											<?= $member['phone'] ?>
+										</a>
+									</li>
 								</ul>
 							</div><!--//primary-info-->
+							
 							<div class="secondary-info col-auto mt-2">
 								<ul class="resume-social list-unstyled">
-												<li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/yourlink</a></li>
-												<li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/yourhandle</a></li>
-												<li><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span>yourwebsite.com</a></li>
+									<li class="mb-3">
+										<a class="text-link" href="#">
+											<span class="fa-container text-center me-2">
+												<i class="fab fa-linkedin-in fa-fw"></i>
+											</span>
+											<?= $member['linkedin'] ?>
+										</a>
+									</li>
+
+									<li class="mb-3">
+										<a class="text-link" href="#">
+											<span class="fa-container text-center me-2">
+												<i class="fab fa-github-alt fa-fw"></i>
+											</span>
+											<?= $member['github'] ?>
+										</a>
+									</li>
+
+									<li>
+										<a class="text-link" href="<?= $member['website'] ?>">
+											<span class="fa-container text-center me-2">
+												<i class="fas fa-globe"></i>
+											</span>
+											<?= $member['website'] ?>
+										</a>
+									</li>
 								</ul>
 							</div><!--//secondary-info-->
 						</div><!--//row-->
-						
 					</div><!--//col-->
 				</div><!--//row-->
 			</header>
@@ -70,7 +127,9 @@
 					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Summary</h2>
 					
 					<div class="resume-section-content">
-						<p class="mb-0">Summarise your education and professional experience here. Add a couple of fun facts. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue elit ut nisi vehicula iaculis. Integer porta nisi erat, quis gravida quam dignissim ut. Nullam tincidunt mollis finibus. Vestibulum et diam vel tellus blandit convallis non id mauris. Curabitur feugiat tincidunt ante, ut iaculis sem. Sed eleifend fringilla diam, quis vehicula tellus fringilla sed. In sagittis commodo ipsum pulvinar sagittis. Ut et turpis sit amet erat elementum convallis ac eu ipsum. Aenean varius eget mi in mollis. Integer tempus diam libero, id blandit neque aliquam non. Maecenas eleifend leo ut pellentesque bibendum. Phasellus consectetur facilisis nunc, at ultricies nisi eleifend eget. Fusce molestie et orci non pulvinar. Aenean ac tristique orci, vitae viverra mi.</p>
+						<p class="mb-0">
+							<?= $member['summary'] ?>
+						</p>
 					</div>
 				</section><!--//summary-section-->
 
@@ -213,45 +272,37 @@
 							<div class="resume-section-content">
 								<div class="resume-skill-item">
 									<ul class="list-unstyled mb-4">
-										<li class="mb-2">
-											<div class="resume-skill-name">Angular</div>
+										<?php
+											$max_index = 0;
 
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</li>
+											if (count($member['skillsTools']) > count($widths)) {
+												$max_index = count($widths);
+											}
+											elseif (count($member['skillsTools']) < count($widths)) {
+												$max_index = count($member['skillsTools']);
+											}
+											
+											for ($i = 0; $i < $max_index; $i++) {
+										?>
+											<li class="mb-2">
+												<div class="resume-skill-name">
+													<?= $member['skillsTools'][$i] ?>
+												</div>
 
-										<li class="mb-2">
-											<div class="resume-skill-name">React</div>
-											
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</li>
-
-										<li class="mb-2">
-											<div class="resume-skill-name">JavaScript</div>
-											
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</li>
-										
-										<li class="mb-2">
-											<div class="resume-skill-name">Node.js</div>
-											
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</li>
-
-										<li class="mb-2">
-											<div class="resume-skill-name">HTML/CSS/SASS/LESS</div>
-											
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</li>
+												<div class="progress resume-progress">
+													<div
+														class="progress-bar theme-progress-bar-dark"
+														role="progressbar"
+														style="width: <?= $widths[$i] ?>%"
+														aria-valuenow="25"
+														aria-valuemin="0"
+														aria-valuemax="100"
+													></div>
+												</div>
+											</li>
+										<?php
+										}
+										?>
 									</ul>
 								</div><!--//resume-skill-item-->
 									
@@ -259,15 +310,17 @@
 									<h4 class="resume-skills-cat font-weight-bold">Others</h4>
 									
 									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Git</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Unit Testing</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Wireframing</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Balsamiq</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">WordPress</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Shopify</span></li>
+										<?php
+											for ($i = 0; $i < count($member['otherSkills']); $i++) {
+										?>
+												<li class="list-inline-item">
+													<span class="badge badge-light">
+														<?= $member['otherSkills'][$i] ?>
+													</span>
+												</li>
+										<?php
+											}
+										?>
 									</ul>
 								</div><!--//resume-skill-item-->
 							</div><!--resume-section-content-->
@@ -399,7 +452,9 @@
 
 	<footer class="footer text-center pt-2 pb-5">
 		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-		<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by Your names</small>
+		<small class="copyright">
+			Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <?php listNames($members) ?>
+		</small>
 	</footer>
 </body>
 </html> 
