@@ -202,6 +202,77 @@
                     'link' => 'https://shdhs.org/first-place-at-the-uc-it-expo/'
                 ]
             ]
+        ],
+        [
+            'firstname' => 'Dillon',
+            'lastname' => 'Carpenter',
+            'role' => 'Programmer',
+            'image' => '',
+            'desiredJobTitle' => 'Software Developer',
+            'phone' => '859-638-9293',
+            'email' => 'carpenterd5@mymail.nku.edu',
+            'linkedin' => 'https://www.linkedin.com/in/dillon-carpenter-120681327/',
+            'github' => 'https://github.com/DillonCarpenter',
+            'website' => '',
+            'summary' =>'I am a full-time, undergraduate student from North Kentucky University majoring in Applied Software Engineering. I have a year of experience as an IT intern, where I have had plenty of time to develop my communication skills and knowledge on the fundamentals of computer and network infrastructure that is a core part of corporations.
+',
+            'workExperience' =>
+            [
+                [
+                    'title' => 'IT Service Intern',
+                    'company' => 'St. Elizabeth Healthcare',
+                    'time' => 'August 2022 - May 2023',
+                    'description' => 'Helped maintain the computer infrastructure at the St. Elizabeth Hospital in Edgewood and regularly communicated with both patients and employees in the various departments of the hospital.', /************/
+                    'achievements' => '', /************/
+                    'technologies' => [
+                        'Windows 10 and 11 OS',
+                        'Bios Setup',
+                    ]
+                ],
+            ],
+            'skillsTools' =>[
+                'Java',
+                'GitHub',
+                'JavaScript',
+                'Python',
+                'HTML/CSS/SCSS'
+            ],
+            'otherSkills' =>[
+                'Microsoft Outlook',
+                'Google Drive',
+                'Unity',
+                'problem-solving',
+                'communication',
+                'creativity'
+            ],
+            'education' =>[
+                [
+                    'schoolDegree' => 'BS in Applied Software Engineering',
+                    'schoolName' => 'Northern Kentucky University',
+                    'time' => '2023 - 2027'
+                ]
+            ],
+            'awards' =>[
+                [
+                    'awardName' => '', /************/
+                    'awardDescription' => '' /************/
+                ]
+            ],
+            'languages' =>[
+                [
+                    'language' => 'English',
+                    'skillLevel' => '(Native)'
+                ]
+            ],
+            'interests' =>[
+                'Destroying my Enemies',
+                'Strategy Games'
+            ],
+            'projects' =>[
+                [
+                    '' /************/
+                ]
+            ]
         ]
     ];
 ?>
