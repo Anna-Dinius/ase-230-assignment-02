@@ -3,13 +3,14 @@
         [
             'firstname' => '',
             'lastname' => '',
-            'profilePicture' => '',
-            'phoneNumber' => '',
-            'email' => "",
-            'linkedin' => "",
-            'github' => "",
-            'website' => "",
-            'desiredJobTitle' =>'',
+            'role' => 'Programmer',
+            'image' => '',
+            'desiredJobTitle' => '',
+            'phone' => '',
+            'email' => '',
+            'linkedin' => '',
+            'github' => '',
+            'website' => '',
             'summary' =>'',
             'workExperience' =>
             [
@@ -19,44 +20,45 @@
                     'description' => '',
                     'achievements' => '',
                     'technologies' => [
-                        'Test';
-                    ];
+                        'Test'
+                    ]
                 ],
             ],
             'skillsTools' =>[
-
+                ''
             ],
-            'others' =>[
-
+            'otherSkills' =>[
+                ''
             ],
             'education' =>[
                 [
                     'schoolDegree' => '',
-                    'time' => "";
-                ];
+                    'schoolName' => '',
+                    'time' => ''
+                ]
             ],
             'awards' =>[
                 [
                     'awardName' => '',
-                    'awardDescription' => '';
+                    'awardDescription' => ''
                 ];
             ],
             'languages' =>[
                 [
                     'language' => '',
-                    'skillLevel' => '';
+                    'skillLevel' => ''
                 ]
             ],
             'interests' =>[
-
+                ''
             ],
             'projects' =>[
                 [
-                    'projectTitle' => '',
-                    'projectDescription' => '',
-                    'link' => "",
-                ];
+                    'title' => '',
+                    'description' => '',
+                    'link' => ''
+                ]
             ],
-        ];
+        ]
     ];
 ?>
