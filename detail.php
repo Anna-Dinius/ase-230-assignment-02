@@ -108,6 +108,9 @@ $widths = [
 										</a>
 									</li>
 
+									<?php
+										if ($member['website']) {
+									?>
 									<li>
 										<a class="text-link" href="<?= $member['website'] ?>">
 											<span class="fa-container text-center me-2">
@@ -116,6 +119,9 @@ $widths = [
 											<?= $member['website'] ?>
 										</a>
 									</li>
+									<?php
+										}
+									?>
 								</ul>
 							</div><!--//secondary-info-->
 						</div><!--//row-->
