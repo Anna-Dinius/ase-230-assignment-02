@@ -1,56 +1,79 @@
 <?php
     $members=[
         [
-            'firstname' => '',
-            'lastname' => '',
+            'firstname' => 'Owen',
+            'lastname' => 'Newberry',
             'role' => 'Programmer',
             'image' => '',
-            'desiredJobTitle' => '',
-            'phone' => '',
-            'email' => '',
-            'linkedin' => '',
-            'github' => '',
-            'website' => '',
-            'summary' =>'',
+            'desiredJobTitle' => 'Software Engineer',
+            'phone' => '(513)-304-4665',
+            'email' => 'owen@owennewberry.com',
+            'linkedin' => 'linkedin.com/in/owen-newberry-6687b0247',
+            'github' => 'github.com/andersonexpos14',
+            'website' => 'owennewberry.com',
+            'summary' =>'I have completed two internships with Crossroads Church doing data analytics and developing reporting software, and I work part-time as a desk assistant at DNA Sports Center. I play club volleyball here at NKU and enjoy training and working out.',
             'workExperience' =>
             [
                 [
-                    'title' => '',
-                    'company' => '',
-                    'description' => '',
-                    'achievements' => '',
+                    'title' => 'Scholars Intern',
+                    'company' => 'Crossroads Church',
+                    'description' => 'Data analytics and financial reporting software design.',
+                    'achievements' => 'Learned how to do data modeling using Microsoft PowerBI and used SQL to manage a database. Worked with teams and coordinated with others. Stayed ahead of deadlines.',
                     'technologies' => [
-                        'Test'
+                        'PowerBI',
+	    		'SQL'
                     ]
                 ]
             ],
             'skillsTools' =>[
-                ''
+                'Java',
+	    	'HTML/CSS',
+	    	'JavaScript',
+	    	'Python',
+	    	'SQL'
             ],
             'otherSkills' =>[
-                ''
+                'PowerBI',
+	    	'C, C++, C#',
+	    	'PHP'
             ],
             'education' =>[
                 [
-                    'schoolDegree' => '',
-                    'schoolName' => '',
-                    'time' => ''
+                    'schoolDegree' => 'BS in Applied Software Engineering',
+                    'schoolName' => 'Northern Kentucky University',
+                    'time' => '2022 - 2026'
+                ],
+                [
+                    'schoolDegree' => 'High School Diploma',
+                    'schoolName' => 'Anderson High School High School',
+                    'time' => '2018 - 2022'
                 ]
             ],
             'awards' =>[
                 [
-                    'awardName' => '',
-                    'awardDescription' => ''
+                    'awardName' => 'NKU Presidential Scholarship',
+                    'awardDescription' => 'Full-ride scholarship to Northern Kentucky University'
+                ],
+	    	[
+                    'awardName' => 'AP Scholar with Distinction',
+                    'awardDescription' => 'Maintained at least a 3.5 average score on every AP Exam they take and scores of 3 or higher on five or more of these exams.'
                 ]
             ],
             'languages' =>[
                 [
-                    'language' => '',
-                    'skillLevel' => ''
+                    'language' => 'English',
+                    'skillLevel' => '(Native)'
+                ],
+	    	[
+                    'language' => 'Spanish',
+                    'skillLevel' => '(Intermediate)'
                 ]
             ],
             'interests' =>[
-                ''
+                'Volleyball',
+	    	'Skiing',
+	    	'Video Games',
+	    	'Saxophone'
             ],
             'projects' =>[
                 [
