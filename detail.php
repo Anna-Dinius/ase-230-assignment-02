@@ -73,14 +73,14 @@ $widths = [
 								
 								<ul class="list-unstyled">
 									<li class="mb-2">
-										<a class="text-link" href="#">
+										<a class="text-link" href="mailto:<?= $member['email'] ?>">
 											<i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>
 											<?= $member['email'] ?>
 										</a>
 									</li>
 									
 									<li>
-										<a class="text-link" href="#">
+										<a class="text-link" href="tel:<?= $member['phone'] ?>">
 											<i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>
 											<?= $member['phone'] ?>
 										</a>
