@@ -17,6 +17,7 @@
                 [
                     'title' => 'Scholars Intern',
                     'company' => 'Crossroads Church',
+		    'time' => 'January 2024 - August 2024',
                     'description' => 'Data analytics and financial reporting software design.',
                     'achievements' => 'Learned how to do data modeling using Microsoft PowerBI and used SQL to manage a database. Worked with teams and coordinated with others. Stayed ahead of deadlines.',
                     'technologies' => [
@@ -27,6 +28,7 @@
 	    	[
                     'title' => 'Front Desk Employee',
                     'company' => 'DNA Sports',
+	 	    'time' => 'January 2023 - Current',
                     'description' => 'Mange transactions, memberships, and rentals at the front desk.',
                     'achievements' => 'Interacted kindly with guest and managers, resolved guest issues, and handled cash, credit, and debit card transactions.',
                     'technologies' => [
