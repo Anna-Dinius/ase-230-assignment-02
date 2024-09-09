@@ -274,9 +274,7 @@
             ],
             'projects' => [
                 [
-                    'title' => 'Dummy Project 1',
-                    'description' => 'This is a dummy project to see if code is functioning as intended.',
-                    'link' => 'https://www.google.com'
+                    '' /************/
                 ]
             ]
         ]

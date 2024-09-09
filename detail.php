@@ -355,19 +355,21 @@ $widths = [
 
 					<div class="row mt-4">
 						<?php
-						foreach($member['projects'] as $project) {
-							?>
-							<div class="col-md-4">
-								<div class="card">
-									<div class="card-body">
-										<h5 class="card-title"><?= $project['title']?></h5>
-										<p class="card-text"><?= $project['description']?></p>
-										<a href="<?= $project['link']?>" class="btn btn-outline-primary">Go to link</a>
+							if ($member['projects']) {
+								foreach($member['projects'] as $project) {
+						?>
+									<div class="col-md-4">
+										<div class="card">
+											<div class="card-body">
+												<h5 class="card-title"><?= $project['title']?></h5>
+												<p class="card-text"><?= $project['description']?></p>
+												<a href="<?= $project['link']?>" class="btn btn-outline-primary">Go to link</a>
+											</div>
+										</div>
 									</div>
-								</div>
-							</div>
-							<?php
-						}
+						<?php
+								}
+							}
 						?>
 
 					</div>
