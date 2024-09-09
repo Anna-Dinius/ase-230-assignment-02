@@ -186,14 +186,18 @@ elseif (count($member['skillsTools']) < count($widths)) {
 												<p><?= $work['description']?></p>
 
 												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-
-												<p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-
 												<ul>
-													<li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-													<li>At vero eos et accusamus et iusto odio dignissimos.</li>
-													<li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-													<li>Maecenas tempus tellus eget.</li>
+													<?php 
+														if($work['achievements']){
+															foreach($work['achievements'] as $achievement){
+													?>
+																<li>
+																	<?= $achiement ?>
+																</li>
+													<?php
+															}
+														}
+													?>
 												</ul>
 
 												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
