@@ -9,7 +9,7 @@
             'phone' => '(513)-304-4665',
             'email' => 'owen@owennewberry.com',
             'linkedin' => 'linkedin.com/in/owen-newberry-6687b0247',
-            'github' => 'github.com/andersonexpos14',
+            'github' => 'github.com/owen-newberry',
             'website' => 'owennewberry.com',
             'summary' =>'I have completed two internships with Crossroads Church doing data analytics and developing reporting software, and I work part-time as a desk assistant at DNA Sports Center. I play club volleyball here at NKU and enjoy training and working out.',
             'workExperience' =>
