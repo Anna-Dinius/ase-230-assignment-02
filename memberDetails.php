@@ -92,12 +92,8 @@
                 'Saxophone'
             ],
             'projects' =>[
-                [
-                    'title' => 'Dummy Project 1',
-                    'description' => 'This is a dummy project to see if code is functioning as intended.',
-                    'link' => 'https://www.google.com'
+                ''
                 ]
-            ]
         ],
         [
             'firstname' => 'Anna',
@@ -211,6 +207,11 @@
                     'title' => 'Visually Impaired Assistance System (VIAS)',
                     'description' => 'Collaborated with three classmates to create a working, cost-effective Visually Impaired Assistance System from scratch and presented the project to a panel of judges',
                     'link' => 'https://shdhs.org/first-place-at-the-uc-it-expo/'
+                ],
+                [
+                    'title' => 'Dummy Project 1',
+                    'description' => 'This is a dummy project to test if the code is functioning as intended.',
+                    'link' => 'https://www.google.com'
                 ]
             ]
         ],
