@@ -192,7 +192,7 @@ elseif (count($member['skillsTools']) < count($widths)) {
 															foreach($work['achievements'] as $achievement){
 													?>
 																<li>
-																	<?= $achiement ?>
+																	<?= $achievement ?>
 																</li>
 													<?php
 															}
