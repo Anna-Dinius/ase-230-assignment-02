@@ -280,9 +280,6 @@ $widths = [
 									}
 								?>
 							</div>
-
-
-
 						</section><!--//education-section-->
 
 						<!-- Awards -->
@@ -371,7 +368,6 @@ $widths = [
 								}
 							}
 						?>
-
 					</div>
 				</section><!--//projects-section-->
 			</div><!--//resume-body-->
