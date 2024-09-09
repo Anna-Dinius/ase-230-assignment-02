@@ -19,7 +19,10 @@
                     'company' => 'Crossroads Church',
 		            'time' => 'January 2024 - August 2024',
                     'description' => 'Data analytics and financial reporting software design.',
-                    'achievements' => 'Learned how to do data modeling using Microsoft PowerBI and used SQL to manage a database. Worked with teams and coordinated with others. Stayed ahead of deadlines.',
+                    'achievements' => [
+                        'Learned how to do data modeling using Microsoft PowerBI and used SQL to manage a database.', 
+                        'Worked with teams and coordinated with others. Stayed ahead of deadlines.'
+                    ],
                     'technologies' => [
                         'PowerBI',
 	    		        'SQL'
@@ -30,7 +33,9 @@
                     'company' => 'DNA Sports',
                     'time' => 'January 2023 - Current',
                     'description' => 'Mange transactions, memberships, and rentals at the front desk.',
-                    'achievements' => 'Interacted kindly with guest and managers, resolved guest issues, and handled cash, credit, and debit card transactions.',
+                    'achievements' => [
+                        'Interacted kindly with guest and managers, resolved guest issues, and handled cash, credit, and debit card transactions.',
+                    ],
                     'technologies' => [
                         'eSoft POS'
                     ]
@@ -113,7 +118,7 @@
                     'company' => 'PROceed BPM',
                     'time' => 'June 2024 - Present',
                     'description' => 'Organize, consolidate, and reduce the amount of CSS and SCSS code. Replace Angular\'s Flex-Layout with a combination of grid and flexbox CSS. Identify and remove unnecessary and redundant HTML and CSS code. Ensure the application\'s layout is responsive to different screen sizes.',
-                    'achievements' => '', /************/
+                    'achievements' => [], /************/
                     'technologies' => [
                         'Angular',
                         'Angular Material',
@@ -126,7 +131,7 @@
                     'company' => 'Western & Southern Financial Group',
                     'time' => 'July 2023 - August 2024',
                     'description' => 'Make outbound calls to insurance applicants to conduct personal history interviews based on underwriters\' requests and document responses in the insurance database. Answer inbound operator calls and transfer the caller to the appropriate department. Process insurance policy loan requests and EFT direct deposit forms. Recruit candidates from across the U.S. for the position of Field Representative.',
-                    'achievements' => '', /************/
+                    'achievements' => [], /************/
                     'technologies' => [
                         'Indeed',
                         'Microsoft Word',
@@ -141,7 +146,7 @@
                     'company' => 'NKU Barnes and Noble Book Store',
                     'time' => 'Aug 2022 - Jan 2023',
                     'description' => 'Put together and organized student orders. Restocked books. Processed book orders from publishers. Called publishers to place orders. Assisted customers. Trained new employees.',
-                    'achievements' => '', /************/
+                    'achievements' => [], /************/
                     'technologies' => [
                         'Windows OS',
 					    'Landline'
@@ -227,7 +232,7 @@
                     'company' => 'St. Elizabeth Healthcare',
                     'time' => 'August 2022 - May 2023',
                     'description' => 'Helped maintain the computer infrastructure at the St. Elizabeth Hospital in Edgewood and regularly communicated with both patients and employees in the various departments of the hospital.',
-                    'achievements' => '', /************/
+                    'achievements' => [], /************/
                     'technologies' => [
                         'Windows 10 and 11 OS',
                         'Bios Setup'
