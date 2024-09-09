@@ -4,7 +4,7 @@
             'firstname' => 'Owen',
             'lastname' => 'Newberry',
             'role' => 'Programmer',
-            'image' => '',
+            'image' => 'assets/images/OwenProfile.jpg',
             'desiredJobTitle' => 'Software Engineer',
             'phone' => '(513)-304-4665',
             'email' => 'owen@owennewberry.com',
@@ -88,9 +88,9 @@
             ],
             'projects' =>[
                 [
-                    'title' => '',
-                    'description' => '',
-                    'link' => ''
+                    'title' => 'Dummy Project 1',
+                    'description' => 'This is a dummy project to see if code is functioning as intended.',
+                    'link' => 'https://www.google.com'
                 ]
             ]
         ],
