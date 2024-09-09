@@ -360,7 +360,7 @@ $widths = [
 									<div class="card-body">
 										<h5 class="card-title"><?= $project['title']?></h5>
 										<p class="card-text"><?= $project['description']?></p>
-										<a href="btn btn-outline-primary" href="<?= $project['link']?>">Go to link</a>
+										<a href="<?= $project['link']?>" class="btn btn-outline-primary">Go to link</a>
 									</div>
 								</div>
 							</div>
