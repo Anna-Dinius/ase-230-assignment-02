@@ -291,16 +291,18 @@ $widths = [
 
 							<div class="resume-section-content">
 								<?php
-									foreach($member['awards'] as $award) {
-										?>
-										<ul class="list-unstyled resume-awards-list">
-											<li class="mb-2 ps-4 position-relative">
-												<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-												<div class="resume-award-name"><?= $award['awardName']?></div>
-												<div class="resume-award-desc"><?= $award['awardDescription']?></div>
-											</li>
-										</ul>
-										<?php
+									if ($member['awards']) {
+										foreach($member['awards'] as $award) {
+								?>
+											<ul class="list-unstyled resume-awards-list">
+												<li class="mb-2 ps-4 position-relative">
+													<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+													<div class="resume-award-name"><?= $award['awardName']?></div>
+													<div class="resume-award-desc"><?= $award['awardDescription']?></div>
+												</li>
+											</ul>
+									<?php
+										}	
 									}
 									?>
 

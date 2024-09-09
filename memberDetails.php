@@ -179,8 +179,12 @@
             ],
             'awards' =>[
                 [
-                    'awardName' => '', /************/
-                    'awardDescription' => '' /************/
+                    'awardName' => 'Honors Advantage Scholarship',
+                    'awardDescription' => 'Awarded to students who enroll and remain actively involved in the NKU Honors College'
+                ],
+                [
+                    'awardName' => 'Kentucky Educational Excellence Scholarship',
+                    'awardDescription' => 'Awarded to students based on GPA, ACT score, AP scores,'
                 ]
             ],
             'languages' =>[
@@ -270,7 +274,9 @@
             ],
             'projects' => [
                 [
-                    '' /************/
+                    'title' => 'Dummy Project 1',
+                    'description' => 'This is a dummy project to see if code is functioning as intended.',
+                    'link' => 'https://www.google.com'
                 ]
             ]
         ]

@@ -8,7 +8,7 @@ function displayCards($member, $i) {
         <img
           class="picture"
           src="<?= $member['image'] ?>"
-          alt="Headshot of <?= $member['firstname'].' '.$member['lastname'] ?>"
+          alt="Photo of <?= $member['firstname'].' '.$member['lastname'] ?>"
         >
       </div>
 
