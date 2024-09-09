@@ -12,8 +12,7 @@
             'github' => 'github.com/owen-newberry',
             'website' => 'owennewberry.com',
             'summary' =>'I have completed two internships with Crossroads Church doing data analytics and developing reporting software, and I work part-time as a desk assistant at DNA Sports Center. I play club volleyball here at NKU and enjoy training and working out.',
-            'workExperience' =>
-            [
+            'workExperience' => [
                 [
                     'title' => 'Scholars Intern',
                     'company' => 'Crossroads Church',
@@ -36,19 +35,19 @@
                     ]
                 ]
             ],
-            'skillsTools' =>[
+            'skillsTools' => [
                 'Java',
                 'HTML/CSS',
                 'JavaScript',
                 'Python',
                 'SQL'
             ],
-            'otherSkills' =>[
+            'otherSkills' => [
                 'PowerBI',
                 'C, C++, C#',
                 'PHP'
             ],
-            'education' =>[
+            'education' => [
                 [
                     'schoolDegree' => 'BS in Applied Software Engineering',
                     'schoolName' => 'Northern Kentucky University',
@@ -60,7 +59,7 @@
                     'time' => '2018 - 2022'
                 ]
             ],
-            'awards' =>[
+            'awards' => [
                 [
                     'awardName' => 'NKU Presidential Scholarship',
                     'awardDescription' => 'Full-ride scholarship to Northern Kentucky University'
@@ -70,7 +69,7 @@
                     'awardDescription' => 'Maintained at least a 3.5 average score on every AP Exam they take and scores of 3 or higher on five or more of these exams.'
                 ]
             ],
-            'languages' =>[
+            'languages' => [
                 [
                     'language' => 'English',
                     'skillLevel' => '(Native)'
@@ -80,15 +79,13 @@
                     'skillLevel' => '(Intermediate)'
                 ]
             ],
-            'interests' =>[
+            'interests' => [
                 'Volleyball',
                 'Skiing',
                 'Video Games',
                 'Saxophone'
             ],
-            'projects' =>[
-                ''
-                ]
+            'projects' => []
         ],
         [
             'firstname' => 'Anna',
@@ -102,14 +99,13 @@
             'github' => 'github.com/Anna-Dinius',
             'website' => '',
             'summary' =>'I am a full-time college student working part-time as an intern for an IT company called PROceed BPM.  I have prior experience as a call center representative and bookseller.  I am also in the Venturing Crew, a youth-led organization within the Boy Scouts of America (BSA).  Through the BSA, I have participated in two leadership camps: National Youth Leadership Training (NYLT) and National Advanced Youth Leadership Experience (NAYLE).  After my participant year, I served on staff for NYLT for four years teaching leadership skills to other youth.',
-            'workExperience' =>
-            [
+            'workExperience' => [
                 [
                     'title' => 'Intern',
                     'company' => 'PROceed BPM',
                     'time' => 'June 2024 - Present',
                     'description' => 'Organize, consolidate, and reduce the amount of CSS and SCSS code. Replace Angular\'s Flex-Layout with a combination of grid and flexbox CSS. Identify and remove unnecessary and redundant HTML and CSS code. Ensure the application\'s layout is responsive to different screen sizes.',
-                    'achievements' => '', /************/
+                    'achievements' => '',
                     'technologies' => [
                         'Angular',
                         'Angular Material',
@@ -122,7 +118,7 @@
                     'company' => 'Western & Southern Financial Group',
                     'time' => 'July 2023 - August 2024',
                     'description' => 'Make outbound calls to insurance applicants to conduct personal history interviews based on underwriters\' requests and document responses in the insurance database. Answer inbound operator calls and transfer the caller to the appropriate department. Process insurance policy loan requests and EFT direct deposit forms. Recruit candidates from across the U.S. for the position of Field Representative.',
-                    'achievements' => '', /************/
+                    'achievements' => '',
                     'technologies' => [
                         'Indeed',
                         'Microsoft Word',
@@ -137,21 +133,21 @@
                     'company' => 'NKU Barnes and Noble Book Store',
                     'time' => 'Aug 2022 - Jan 2023',
                     'description' => 'Put together and organized student orders. Restocked books. Processed book orders from publishers. Called publishers to place orders. Assisted customers. Trained new employees.',
-                    'achievements' => '', /************/
+                    'achievements' => '',
                     'technologies' => [
                         'Windows OS',
 					    'Landline'
                     ]
                 ]
             ],
-            'skillsTools' =>[
+            'skillsTools' => [
                 'Angular',
                 'GitHub',
                 'JavaScript',
                 'Node.js',
                 'HTML/CSS/SCSS'
             ],
-            'otherSkills' =>[
+            'otherSkills' => [
                 'Microsoft Outlook',
                 'Google Drive',
                 'Typescript',
@@ -161,7 +157,7 @@
                 'detail-oriented',
                 'public speaking'
             ],
-            'education' =>[
+            'education' => [
                 [
                     'schoolDegree' => 'BS in Applied Software Engineering',
                     'schoolName' => 'Northern Kentucky University',
@@ -173,7 +169,7 @@
                     'time' => '2018 - 2022'
                 ]
             ],
-            'awards' =>[
+            'awards' => [
                 [
                     'awardName' => 'Honors Advantage Scholarship',
                     'awardDescription' => 'Awarded to students who enroll and remain actively involved in the NKU Honors College'
@@ -183,13 +179,13 @@
                     'awardDescription' => 'Awarded to students based on GPA, ACT score, AP scores,'
                 ]
             ],
-            'languages' =>[
+            'languages' => [
                 [
                     'language' => 'English',
                     'skillLevel' => '(Native)'
                 ]
             ],
-            'interests' =>[
+            'interests' => [
                 'Hiking',
                 'Camping',
                 'Traveling',
@@ -197,7 +193,7 @@
                 'Skiing',
                 'Costume-making'
             ],
-            'projects' =>[
+            'projects' => [
                 [
                     'title' => 'Visually Impaired Assistance System (VIAS)',
                     'description' => 'Collaborated with three classmates to create a working, cost-effective Visually Impaired Assistance System from scratch and presented the project to a panel of judges',
@@ -228,7 +224,7 @@
                     'company' => 'St. Elizabeth Healthcare',
                     'time' => 'August 2022 - May 2023',
                     'description' => 'Helped maintain the computer infrastructure at the St. Elizabeth Hospital in Edgewood and regularly communicated with both patients and employees in the various departments of the hospital.',
-                    'achievements' => '', /************/
+                    'achievements' => '',
                     'technologies' => [
                         'Windows 10 and 11 OS',
                         'Bios Setup'
@@ -257,12 +253,7 @@
                     'time' => '2023 - 2027'
                 ]
             ],
-            'awards' => [
-                [
-                    'awardName' => '', /************/
-                    'awardDescription' => '' /************/
-                ]
-            ],
+            'awards' => [],
             'languages' => [
                 [
                     'language' => 'English',
@@ -273,11 +264,7 @@
                 'Destroying my Enemies',
                 'Strategy Games'
             ],
-            'projects' => [
-                [
-                    '' /************/
-                ]
-            ]
+            'projects' => []
         ]
     ];
 ?>

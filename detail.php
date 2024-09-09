@@ -14,7 +14,7 @@ $widths = [
 	96,
 	92,
 	96
-]
+];
 
 // Skills & Tools section
 $max_index = 0;
@@ -122,14 +122,14 @@ elseif (count($member['skillsTools']) < count($widths)) {
 									<?php
 										if ($member['website']) {
 									?>
-									<li>
-										<a class="text-link" href="https://www.<?= $member['website'] ?>">
-											<span class="fa-container text-center me-2">
-												<i class="fas fa-globe"></i>
-											</span>
-											<?= $member['website'] ?>
-										</a>
-									</li>
+											<li>
+												<a class="text-link" href="https://www.<?= $member['website'] ?>">
+													<span class="fa-container text-center me-2">
+														<i class="fas fa-globe"></i>
+													</span>
+													<?= $member['website'] ?>
+												</a>
+											</li>
 									<?php
 										}
 									?>
@@ -285,14 +285,14 @@ elseif (count($member['skillsTools']) < count($widths)) {
 						</section><!--//education-section-->
 
 						<!-- Awards -->
-						<section class="resume-section reference-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+						<?php if ($member['awards']) { ?>
+							<section class="resume-section reference-section mb-5">
+								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
 
-							<div class="resume-section-content">
-								<?php
-									if ($member['awards']) {
+								<div class="resume-section-content">
+									<?php
 										foreach($member['awards'] as $award) {
-								?>
+									?>
 											<ul class="list-unstyled resume-awards-list">
 												<li class="mb-2 ps-4 position-relative">
 													<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
@@ -302,11 +302,10 @@ elseif (count($member['skillsTools']) < count($widths)) {
 											</ul>
 									<?php
 										}	
-									}
 									?>
-
-							</div>
-						</section><!--//interests-section-->
+								</div>
+							</section><!--//interests-section-->
+						<?php } ?>
 
 						<!-- Languages -->
 						<section class="resume-section language-section mb-5">
@@ -349,14 +348,14 @@ elseif (count($member['skillsTools']) < count($widths)) {
 				</div><!--//row-->
 
 				<!-- Projects -->
-				<section class="resume-section experience-section mb-5">
-					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
+				<?php if ($member['projects']) { ?>
+					<section class="resume-section experience-section mb-5">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
 
-					<div class="row mt-4">
-						<?php
-							if ($member['projects']) {
+						<div class="row mt-4">
+							<?php
 								foreach($member['projects'] as $project) {
-						?>
+							?>
 									<div class="col-md-4">
 										<div class="card">
 											<div class="card-body">
@@ -366,12 +365,12 @@ elseif (count($member['skillsTools']) < count($widths)) {
 											</div>
 										</div>
 									</div>
-						<?php
+							<?php
 								}
-							}
-						?>
-					</div>
-				</section><!--//projects-section-->
+							?>
+						</div>
+					</section><!--//projects-section-->
+				<?php } ?>
 			</div><!--//resume-body-->
 		</div>
 	</article>
