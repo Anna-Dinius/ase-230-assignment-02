@@ -185,20 +185,20 @@ elseif (count($member['skillsTools']) < count($widths)) {
 											<div class="resume-timeline-item-desc">
 												<p><?= $work['description']?></p>
 
+												<?php if($work['achievements']) { ?>
 												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 												<ul>
 													<?php 
-														if($work['achievements']){
-															foreach($work['achievements'] as $achievement){
+														foreach($work['achievements'] as $achievement){
 													?>
-																<li>
-																	<?= $achievement ?>
-																</li>
+															<li>
+																<?= $achievement ?>
+															</li>
 													<?php
-															}
 														}
 													?>
 												</ul>
+												<?php } ?>
 
 												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 
