@@ -51,6 +51,13 @@ elseif (count($member['skillsTools']) < count($widths)) {
 
 	<!-- Theme CSS -->
 	<link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+
+	<!-- Prevents secondary-info column in header from wrapping -->
+	<style>
+		header .row.p-4 {
+			flex-wrap: nowrap;
+		}
+	</style>
 </head>
 
 <body>

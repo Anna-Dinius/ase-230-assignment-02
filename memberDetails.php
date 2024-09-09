@@ -214,7 +214,7 @@
             'desiredJobTitle' => 'Software Developer',
             'phone' => '859-638-9293',
             'email' => 'carpenterd5@mymail.nku.edu',
-            'linkedin' => 'linkedin.com/in/dillon-carpenter-120681327/',
+            'linkedin' => 'linkedin.com/in/dillon-carpenter-120681327',
             'github' => 'github.com/DillonCarpenter',
             'website' => '',
             'summary' =>'I am a full-time, undergraduate student from North Kentucky University majoring in Applied Software Engineering. I have a year of experience as an IT intern, where I have had plenty of time to develop my communication skills and knowledge on the fundamentals of computer and network infrastructure that is a core part of corporations.',
