@@ -15,6 +15,17 @@ $widths = [
 	92,
 	96
 ]
+
+// Skills & Tools section
+$max_index = 0;
+
+if (count($member['skillsTools']) > count($widths)) {
+	$max_index = count($widths);
+}
+elseif (count($member['skillsTools']) < count($widths)) {
+	$max_index = count($member['skillsTools']);
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -208,15 +219,6 @@ $widths = [
 								<div class="resume-skill-item">
 									<ul class="list-unstyled mb-4">
 										<?php
-											$max_index = 0;
-
-											if (count($member['skillsTools']) > count($widths)) {
-												$max_index = count($widths);
-											}
-											elseif (count($member['skillsTools']) < count($widths)) {
-												$max_index = count($member['skillsTools']);
-											}
-
 											for ($i = 0; $i < $max_index; $i++) {
 										?>
 											<li class="mb-2">
